@@ -1,22 +1,65 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <link href="link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Roboto:ital,wght@1,100&family=Work+Sans:wght@500;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta charset="UTF-8">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <h1>
+      This is a static template, there is no bundler or bundling involved!
+    </h1>
+    <section id="feedback">
+      <div>
+        <h2>Give us a good news</h2>
+        <form action="/action_page.php">
+          <input type="text" name="name" value="Name" required /><br />
+          <input type="text" name="email" value="Email" /><br />
+          <input type="text" name="subject" value="Subject" /><br />
+          <textarea class="text" cols="86" rows="20" name="clientMessage">
+Your Message</textarea
+          ><br /><br />
+          <input type="submit" value="Submit" />
+          <!--How to get the same width and the same font for and into the form-->
+        </form>
+      </div>
+      <div id="labels">
+        <h2>Our happy client</h2>
+        <div class="container"> <!--this will be a flexbox-->
+          <div class="clientlabel">
+            <img src="/clientlabels/Zara_Logo.svg" alt="Zara">
+          </div>
+          <div class="clientlabel">
+              <img src="/clientlabels/Logo_of_Mango_(new).svg" alt="Mango">
+          </div>
+          <div class="clientlabel">
+              <img src="/clientlabels/1280px-Barneys_New_York_Logo.svg" alt="Barneys New York">
+          </div>
+          <div class="clientlabel">
+              <img src="/clientlabels/1280px-Gucci_Logo.svg" alt="Gucci">
+          </div>
+          <div class="clientlabel">
+              <img src="/clientlabels/Calvin_klein_logo.svg" alt="Calvin Klein">
+          </div>
+          <div class="clientlabel">
+              <img src="/clientlabels/1280px-Logo_NIKE.svg" alt="Nike">
+          </div>
+          <div class="clientlabel">
+              <img src="/clientlabels/Converse_logo.svg" alt="Converse">
+          </div>
+          <div class="clientlabel">
+              <img src="/clientlabels/Puma_Logo.svg" alt="Puma">
+          </div>
+          <div class="clientlabel">
+              <img src="/clientlabels/1280px-Levi_s_logo.svg" alt="Levi's">
+          </div>
+          <div class="clientlabel">
+              <img src="/clientlabels/Billabong.svg" alt="Billabong">
+          </div>
+        <div>
 
-
-    <meta name="description" content="Sahara festival">
-    <meta name= "author" content="Carole">
-    <meta name= "keywords" content="Sahara, festival, desert, Mali blues">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Magic Trees</title>
-<link rel="stylesheet" href= "style.css">
-</head>
-
-<body>
-    <div class="container">
-    <header>
-<nav>
-    <div class="nav-links">
-<ul>
+      </div>
+    </section>
+  </body>
+</html>
