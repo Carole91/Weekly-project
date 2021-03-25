@@ -4,62 +4,63 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css">
     <title>Static Template</title>
   </head>
   <body>
-    <h1>
-      This is a static template, there is no bundler or bundling involved!
-    </h1>
+    <footer>
     <section id="feedback">
-      <div>
+      <div id = "news">
         <h2>Give us a good news</h2>
+        <div class = "container">
         <form action="/action_page.php">
           <input type="text" name="name" value="Name" required /><br />
           <input type="text" name="email" value="Email" /><br />
           <input type="text" name="subject" value="Subject" /><br />
           <textarea class="text" cols="86" rows="20" name="clientMessage">
-Your Message</textarea
-          ><br /><br />
+Your Message</textarea><br /><br />
           <input type="submit" value="Submit" />
           <!--How to get the same width and the same font for and into the form-->
         </form>
       </div>
+      </div>
       <div id="labels">
         <h2>Our happy client</h2>
         <div class="container"> <!--this will be a flexbox-->
-          <div class="clientlabel">
-            <img src="/clientlabels/Zara_Logo.svg" alt="Zara">
-          </div>
-          <div class="clientlabel">
-              <img src="/clientlabels/Logo_of_Mango_(new).svg" alt="Mango">
-          </div>
-          <div class="clientlabel">
-              <img src="/clientlabels/1280px-Barneys_New_York_Logo.svg" alt="Barneys New York">
-          </div>
-          <div class="clientlabel">
-              <img src="/clientlabels/1280px-Gucci_Logo.svg" alt="Gucci">
-          </div>
-          <div class="clientlabel">
-              <img src="/clientlabels/Calvin_klein_logo.svg" alt="Calvin Klein">
-          </div>
-          <div class="clientlabel">
-              <img src="/clientlabels/1280px-Logo_NIKE.svg" alt="Nike">
-          </div>
-          <div class="clientlabel">
-              <img src="/clientlabels/Converse_logo.svg" alt="Converse">
-          </div>
-          <div class="clientlabel">
-              <img src="/clientlabels/Puma_Logo.svg" alt="Puma">
-          </div>
-          <div class="clientlabel">
-              <img src="/clientlabels/1280px-Levi_s_logo.svg" alt="Levi's">
-          </div>
-          <div class="clientlabel">
-              <img src="/clientlabels/Billabong.svg" alt="Billabong">
-          </div>
-        <div>
 
+
+             <img src="clientlabels/Zara_Logo.svg" alt="Zara">
+
+          <svg>
+              <img src="clientlabels/Logo_of_Mango_(new).svg" alt="Mango">
+            </svg>
+
+              <img src="clientlabels/1280px-Barneys_New_York_Logo.svg" alt="Barneys New York">
+
+
+              <img src="clientlabels/1280px-Gucci_Logo.svg" alt="Gucci">
+
+
+              <img src="clientlabels/Calvin_klein_logo.svg" alt="Calvin Klein">
+
+
+              <img src="clientlabels/1280px-Logo_NIKE.svg" alt="Nike">
+
+
+              <img src="clientlabels/Converse_logo.svg" alt="Converse">
+
+
+              <img src="clientlabels/Puma_Logo.svg" alt="Puma">
+
+
+              <img src="clientlabels/1280px-Levi_s_logo.svg" alt="Levi's">
+
+
+              <img src="clientlabels/Billabong.svg" alt="Billabong">
+          </div>
+        </div>
       </div>
     </section>
+  </footer>
   </body>
 </html>
