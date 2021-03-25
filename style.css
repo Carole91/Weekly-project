@@ -5,3 +5,18 @@
   align-items: stretch;
   align-content: flex-start;
 }
+
+input, textarea {
+  font-family: monospace;
+  width: 300px;
+  border-color: red;
+  resize: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#submitbutton {
+  width: 10%;
+  height: 5%;
+}
