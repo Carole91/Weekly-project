@@ -62,9 +62,11 @@ h1 {
   opacity: 10;
 }
 /* cards */
-.arian-img {
+
+.card-image {
   border-radius: 100%;
   max-width: 10rem;
+  max-height: 10rem;
 }
 
 .card {
@@ -76,6 +78,7 @@ h1 {
   border: 0;
   align-items: center;
 }
+/*  */
 
 .hiring {
   text-align: center;
