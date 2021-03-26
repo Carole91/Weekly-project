@@ -1,10 +1,79 @@
-.container {
-  display: flex;
-  flex: column wrap;
-  justify-content: center;
-  align-items: stretch;
-  align-content: flex-start;
+ul li {
+    list-style: none;
+    width: 100px;
 }
+
+a, a:visited {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+button {
+    cursor: pointer
+}
+
+/*Start: new for positioning*/
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.clients_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients_getintouch {
+  max-width: 460px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.clients_title {
+  font-size: 22px;
+  text-align: left;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  margin: 0 0 35px 0;
+  padding-left: 10px;
+}
+
+.clients_clients {
+  max-width: 380px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.clients_logo {
+  display: flex;
+  justify-content:flex-start;
+}
+
+.clients_items {
+  text-align: center;
+  margin: 0 20px 0 20px;
+}
+
+.client_item {
+  margin: 0 0 55px 0;
+}
+/*End: new for positioning*/
+
+
+img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
 
 input, textarea {
   color: #dbdbdb;
@@ -12,7 +81,7 @@ input, textarea {
   padding: 10px 15px;
   margin: 8px;
   font-family: monospace;
-  width: 300px;
+  width: 100%;
   resize: none;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -20,6 +89,7 @@ input, textarea {
 }
 
 #submitbutton {
+  margin-top: 3px;
   width: 150px;
   background-color: white;
   color: #0dcaf0;
