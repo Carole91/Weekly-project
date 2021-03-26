@@ -11,9 +11,6 @@ a:hover {
     text-decoration: none
 }
 
-button {
-    cursor: pointer
-}
 
 /*Start: new for positioning*/
 
@@ -41,7 +38,7 @@ button {
   text-align: left;
   letter-spacing: 1.1px;
   text-transform: uppercase;
-  margin: 0 0 35px 0;
+  margin: 0 0 17 0;
   padding-left: 10px;
 }
 
@@ -90,10 +87,16 @@ input, textarea {
 
 #submitbutton {
   margin-top: 3px;
-  width: 150px;
+  width: 100px;
   background-color: white;
   color: #0dcaf0;
   border: 1px solid #0dcaf0;
   border-radius: 3px;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+#submitbutton:hover {
+  transition-duration: 0.5s;
+  background-color: #6b58c0;
 }
