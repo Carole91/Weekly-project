@@ -79,9 +79,15 @@ h1 {
   align-items: center;
 }
 
+.card:hover {
+  transition: 1.5s;
+  transform: scale(1.3);
+}
+
 .card:hover .card-body {
   opacity: 1;
   transition: 1.5s;
+  transform: scale(1.3);
 }
 
 .card-body {
@@ -158,17 +164,6 @@ a:hover {
 
 
 /*Start: new for positioning*/
-
-.container {
-    max-width: 940px;
-    margin: 0 auto;
-}
-
-.clients_box {
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-}
 
 .clients_getintouch {
   max-width: 460px;
