@@ -85,24 +85,9 @@
   <section class="section-video">
     <div class="container-fluid" style="background-image: url('images/bgk-middle.png'); background-size: cover;">
 
-
-
       <div class="video-wrapper">
         <video src="images/tajam_ourstory.mp4" poster="posterimage.jpg"></video>
       </div>
-
-
-
-
-
-
-
-
-      <!-- <div class="video-tajam">
-        <video src="images/tajam_ourstory.mp4" width="100%" controls loop poster="posterimage.jpg">
-
-        </video>
-      </div> -->
 
     </div>
   </section>
@@ -146,7 +131,7 @@
         </div>
         <div class="col-lg-4 col-md-12">
           <div class="card">
-            <img src="https://www.flaticon.com/svg/vstatic/svg/2784/2784403.svg?token=exp=1616763621~hmac=4f37e56b684be5cff9451aeadae62736" class="card-img-top card-image" alt="image">
+            <img src="images/Arno.JPG" class="card-img-top card-image" alt="image">
             <div class="card-body">
               <h5 class="card-title">Arnaut</h5>
               <p class="card-text">Web Development</p>
@@ -165,11 +150,51 @@
   </section>
 
   <!-- section-client -->
-  <section class="section-client">
-    <div class="container-fluid">
+  <!-- <section class="section-client">
+    <div class="container-fluid"> -->
 
-    </div>
-  </section>
+
+      <section id="feedback">
+        <div class="container-fluid">
+          <div class="clients_box">
+            <div class="clients_getintouch">
+              <h2 class="clients_title">Give us a good news</h2>
+              <form action="/action_page.php">
+                <input type="text" name="name" placeholder="Name" required /><br />
+                <input type="email" name="email" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" placeholder="Email" required /><br />
+                <input type="text" name="subject" placeholder="Subject" /><br />
+                <textarea class="text" cols="86" rows="15" name="clientMessage" placeholder="Your Message" required></textarea><br />
+                <input id="submitbutton" type="submit" value="Submit" />
+              </form>
+            </div>
+            <div class="clients_clients">
+              <h2 class="clients_title">Our happy client</h2>
+              <div class="clients_logo">
+                <ul class="clients_items">
+                  <li class="client_item1"><a href="#"><img class="client_img" src="images/png/Zara_Logo.png" alt="Zara"></a></li>
+                  <li class="client_item1"><a href="#"><img class="client_img" src="images/png/1280px-Barneys_New_York_Logo.png" alt="Barneys New York"></a></li>
+                  <li class="client_item1"><a href="#"><img class="client_img" src="images/png/Calvin_klein_logo.png" alt="Calvin Klein"></a></li>
+                  <li class="client_item1"><a href="#"><img class="client_img" src="images/png/Converse_logo.png" alt="Converse"></a></li>
+                  <li class="client_item1"><a href="#"><img class="client_img" src="images/png/1280px-Levi_s_logo.png" alt="Levi's"></a></li>
+                </ul>
+                <ul class="clients_items">
+                  <li class="client_item2"><a href="#"><img class="client_img" src="images/png/Logo_of_Mango_(new).png" alt="Mango"></a></li>
+                  <li class="client_item2"><a href="#"><img class="client_img" src="images/png/1280px-Gucci_Logo.png" alt="Gucci"></a></li>
+                  <li class="client_item2"><a href="#"><img class="client_img" src="images/png/1280px-Logo_NIKE.png" alt="Nike"></a></li>
+                  <li class="client_item2"><a href="#"><img class="client_img" src="images/png/Puma_Logo.png" alt="Puma"></a></li>
+                  <li class="client_item2"><a href="#"><img class="client_img" src="images/png/Billabong.png" alt="Billabong"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+    <!-- </div>
+  </section> -->
 
   <!-- section-footer -->
   <section class="section-footer">
@@ -178,8 +203,8 @@
     </div>
   </section>
 
-<!-- javaScript -->
-<script type="text/javascript" src="jScript/script.js"></script>
+  <!-- javaScript -->
+  <script type="text/javascript" src="jScript/script.js"></script>
 
   <!-- Separate Popper and Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
