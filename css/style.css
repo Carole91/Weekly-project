@@ -10,7 +10,7 @@ h1 {
   padding: 7% 15%;
 }
 
-/*********************** section-header ***********************/
+/*********************** section-header ************************/
 
 #title .container-fluid {
   padding: 1% 15% 7%;
@@ -574,7 +574,7 @@ outline: none !important;
 
     } */
 
-    .overlay{
+    /* .overlay{
         position: absolute;
         top: 0;
         bottom: 0;
@@ -585,32 +585,30 @@ outline: none !important;
         display: flex;
         align-items: flex;
         justify-content: center;
-        color: white;
+        color: white; */
 
-
-
-
-
-   p{
-        color: rgb(99, 99, 99);
-
-}
 
 div#container{
     margin: auto;
     width: 70%;
+    text-align: center;
 
 }
 
-h3#expertiseTitle, h4{
+/* #expertiseTitle, h4{
     text-transform: uppercase;
     text-align: center;
+} */
+
+.expertise-text {
+  text-align: center;
 }
 
 div.buttons{
    display: flex;
    flex-wrap: wrap;
    margin: 20px;
+   justify-content: center;
 
 }
 
