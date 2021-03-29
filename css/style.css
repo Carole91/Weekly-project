@@ -165,6 +165,7 @@ a:hover {
 
 /*Start: new for positioning*/
 
+
 .clients_getintouch {
   max-width: 460px;
   margin: 0 auto;
@@ -334,10 +335,14 @@ outline: none !important;
   border: 2px solid #0dcaf0;
 }
 
+.container_footer {
+    max-width: 940px;
+    margin: 0 auto;
+}
 
 
 .footer {
-    background-image: url(./images/bgk-footer.png);
+    background-image: url(../images/bgk-footer.png);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
