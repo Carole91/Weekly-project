@@ -508,7 +508,7 @@ outline: none !important;
 .footer_bottom {
     display: flex;
     justify-content: space-between;
-    margin: 10px 10px 0 10px;
+    margin: 30px 15px 0 15px;
     padding-bottom: 30px;
 }
 
@@ -535,7 +535,7 @@ outline: none !important;
 }
 
 .footer_copyright {
-    margin: 15px 0 0 0;
+    margin: 0;
     color: #ffffff;
 }
 
